@@ -1,8 +1,8 @@
 Feature: Numbers
 
-  Numbers is great as a verification exercise to get the Cucumber-js infrastructure up and running
+  Numbers is test for Cucumber-js
 
   Scenario: Add two number
-    Given the numbers 1 and 3
+    Given the numbers 2 and 3
     When they are added together 
-    Then should the result be 4
+    Then should the result be 5
